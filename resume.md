@@ -48,7 +48,7 @@ Notable work
       Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with javascript interface) as Android app.
     - [Homebrew Hub](https://github.com/dmg01/homebrewhub) -  A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
       Basically a CMS built ground up using Node, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
-    - [Freddolo](https://play.google.com/store/apps/details?id=appinventor.ai_puma95_95.MrFreddolo) - A random generator of jokes from an huge database. Features user partecipation.\ MaterializeCSS for the frontend, SQLite, PHP for the backend.
+    - [Freddolo](https://play.google.com/store/apps/details?id=appinventor.ai_puma95_95.MrFreddolo) - A random generator of jokes from an huge database. Features user partecipation.\ MaterializeCSS for the frontend, SQLite, PHP for the backend. 15K downloads.
     - [RSS Notifier](https://github.com/avivace/rssnotifier) - Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node, database is SQLite3.
     - [RadioGit](https://github.com/avivace/radiogit) - Telegram bot to broadcast GitHub repository events and activities to private and group chats. Supports user and group preferences.\
       Built on Python 3 with SQLite3 as database, the webhook listener is in Node.
