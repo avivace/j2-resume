@@ -29,6 +29,10 @@ Education
 Experience
 ----------
 
+August 2017 -
+:   **Backend Developer**; G4i, Arcore
+:   Working on Node web applications.
+
 September 2014 - 
 :   **IT Technician**; IMPRECOM SRL, Monza
 :   Doing some sysadmin tasks in mantaining computers and the network.
