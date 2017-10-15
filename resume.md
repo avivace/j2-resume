@@ -12,11 +12,11 @@ Antonio Vivace
 Education
 ---------
 
-2014-2017 (expected)
+2014-2017
 :   **B.Sc, Computer Science**; Università di Milano Bicocca
 
     Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology.\
-    *Thesis title: Integer Linear Programming approaches for DNA Recombination.*
+    *[Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): Integer Linear Programming approaches on the DNA recombination problem*
 
 2010-2014
 :   **High School Diploma at Liceo Scientifico**; ITCG A. Mapelli, Monza
@@ -29,11 +29,11 @@ Education
 Experience
 ----------
 
-August 2017 -
-:   **Backend Developer**; G4i, Arcore
-:   Working on Node web applications.
+August 2017 - Present
+:   **IT Consultant**; G4i, Arcore
+:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM, Bootstrap 4. Consulting and organising developers in other projects.
 
-September 2014 - 
+September 2014 - Present
 :   **IT Technician**; IMPRECOM SRL, Monza
 :   Doing some sysadmin tasks in mantaining computers and the network.
 
