@@ -21,7 +21,7 @@ Education
 2010-2014
 :   **High School Diploma at Liceo Scientifico**; ITCG A. Mapelli, Monza
 
-    *Science High School *
+    *Science High School*
 
 2014
 :   **First Certificate in English**
