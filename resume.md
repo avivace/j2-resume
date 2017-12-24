@@ -12,11 +12,17 @@ Antonio Vivace
 Education
 ---------
 
+2017-2019 (Expected)
+:   **M.Sc, Computer Science**; Università di Milano Bicocca
+
+    Notable sujects I'm taking: Machine Learning, Concurrent Systems.
+
+
 2014-2017
 :   **B.Sc, Computer Science**; Università di Milano Bicocca
 
     Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology.\
-    *[Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): Integer Linear Programming approaches on the DNA recombination problem*
+    [Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): Integer Linear Programming approaches on the DNA recombination problem
 
 2010-2014
 :   **High School Diploma at Liceo Scientifico**; ITCG A. Mapelli, Monza
@@ -30,12 +36,12 @@ Experience
 ----------
 
 August 2017 - Present
-:   **IT Consultant**; G4i, Arcore
-:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM, Bootstrap 4. Consulting and organising developers in other projects.
+:   **Software Consultant**; G4i, Arcore
+:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects.
 
 September 2014 - Present
 :   **IT Technician**; IMPRECOM SRL, Monza
-:   Doing some sysadmin tasks in mantaining computers and the network.
+:   Sysadmin tasks: mantaining and configuring computers and the network.
 
 June 2015 - May 2017
 :   **Web Manager**; SoleLuna Club, Concorezzo
@@ -70,7 +76,7 @@ Web
 :   I worked and learnt a lot of backend and frontend frameworks, CMS, and various components. I extensively used Wordpress, Node (with Express and Fastify), Bootstrap 3 and 4, MaterializeCSS and more. 
 
 Languages
-:   In university I had the chance to work on assignments and course projects using Prolog and LISP (Programming Paradigms), Ruby (Computational Biology), R (Statistics) and C (Embedded Systems). Personally I really love Javascript (and its Node ecosystem).
+:   In university I had the chance to work on assignments and course projects using Prolog and LISP (Programming Paradigms), Ruby (Computational Biology), R (Statistics) and C (Embedded Systems). Personally I really love Javascript, Node and its community plugin ecosystem.
 
 Hobbies
 :   Old school hardware/software, photography, typography and electronics. 
