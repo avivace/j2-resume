@@ -12,10 +12,10 @@ Antonio Vivace
 Education
 ---------
 
-2017-2019 (Expected)
+2018-2020 (Expected)
 :   **M.Sc, Computer Science**; Università di Milano Bicocca
 
-    Notable sujects I'm taking: Machine Learning, Concurrent Systems.
+    Notable sujects I’m taking: Machine Learning, Concurrent Systems.
 
 
 2014-2017
@@ -29,19 +29,24 @@ Education
 
     *Science High School*
 
-2014
+2013
 :   **First Certificate in English**
 
 Experience
 ----------
 
-August 2017 - Present
-:   **Software Consultant**; G4i, Arcore
-:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects.
+October 2017 - Present
+:   **Frontend Developer, UX designer** Università degli Studi di Milano Bicocca, Milan
+:   Scholarship. Redesigning an interface and renewing the software for [CoderBot](http://www.coderbot.org/it/index.html), an educative robot used in primary schools to teach coding.
+
+
+August 2017 - December 2017
+:   **Software Consultant, Full Stack developer**; G4i, Arcore
+:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
 
 September 2014 - Present
 :   **IT Technician**; IMPRECOM SRL, Monza
-:   Sysadmin tasks: mantaining and configuring computers and the network.
+:   Consulting and Sysadmin tasks: mantaining and configuring computers and the network.
 
 June 2015 - May 2017
 :   **Web Manager**; SoleLuna Club, Concorezzo
@@ -73,7 +78,7 @@ Open Source
 :   I partecipate in civic-hacking projects, I love producing quality documentation for the community and everything I worked on is available with an Open Source license.
 
 Web
-:   I worked and learnt a lot of backend and frontend frameworks, CMS, and various components. I extensively used Wordpress, Node (with Express and Fastify), Bootstrap 3 and 4, MaterializeCSS and more. 
+:   I worked and learnt a lot of backend and frontend frameworks, CMS, and various components. I developed entire projects taking care of the full stack, extensively using Wordpress, Node (with Express and Fastify), Bootstrap 3 and 4, MaterializeCSS, MongoDB (and mongoose), MySQL, sqlite and more.
 
 Languages
 :   In university I had the chance to work on assignments and course projects using Prolog and LISP (Programming Paradigms), Ruby (Computational Biology), R (Statistics) and C (Embedded Systems). Personally I really love Javascript, Node and its community plugin ecosystem.
@@ -83,5 +88,6 @@ Hobbies
 
 ----
 
-> <avivace4@gmail.com> • 320 1171929 • 22 years old\
-> Monza, Milan
+> <avivace4@gmail.com> • 320 1171929 • 23 years old\
+> Monza, Milan, January 2018\
+> <h6>An always updated version of this document is available at [www.avivace.com/cv.pdf](https://avivace.com/cv.pdf)</h6>
