@@ -35,18 +35,21 @@ Education
 Experience
 ----------
 
-October 2017 - Present
-:   **Frontend Developer, UX designer** Università degli Studi di Milano Bicocca, Milan
-:   Scholarship. Redesigning an interface and renewing the software for [CoderBot](http://www.coderbot.org/it/index.html), an educative robot used in primary schools to teach coding.
+January 2018 - Present
+:   **Software Consultant, Full Stack Developer**; Hawks Holding, Arcore
+:   Freelance. Mantaining and designing websites in Wordpress. Developing ad-hoc tools to support the businesses of the Holding and expose/showcase them to the clients.
 
+October 2017 - Present
+:   **Frontend Developer, UX Designer** Università degli Studi di Milano Bicocca, Milan
+:   Scholarship, part-time. Redesigning an interface and renewing the software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children.
 
 August 2017 - December 2017
-:   **Software Consultant, Full Stack developer**; G4i, Arcore
-:   Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
+:   **Software Consultant, Full Stack Developer**; G4i, Arcore
+:   Freelance. Lead the full stack developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
 
 September 2014 - Present
 :   **IT Technician**; IMPRECOM SRL, Monza
-:   Consulting and Sysadmin tasks: mantaining and configuring computers and the network.
+:   Freelance. Consulting and Sysadmin tasks: mantaining and configuring computers and the network.
 
 June 2015 - May 2017
 :   **Web Manager**; SoleLuna Club, Concorezzo
@@ -61,7 +64,7 @@ Notable work
     - [dailyProgrammer](https://play.google.com/store/apps/details?id=avivace.daily_programmer) - An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
       20K total downloads and 7K weekly users on Android Devices and more on the [web version](https://dp.avivace.com/).\
       Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with javascript interface) as Android app.
-    - [Homebrew Hub](https://github.com/dmg01/homebrewhub) -  A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
+    - [Homebrew Hub](https://gbhh.avivace.com) -  A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
       Basically a CMS built ground up using Node, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
     - [Freddolo](https://play.google.com/store/apps/details?id=appinventor.ai_puma95_95.MrFreddolo) - A random generator of jokes from an huge database. Features user partecipation.\ MaterializeCSS for the frontend, SQLite, PHP for the backend. 15K downloads.
     - [RSS Notifier](https://github.com/avivace/rssnotifier) - Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node, database is SQLite3.
@@ -89,5 +92,5 @@ Hobbies
 ----
 
 > <avivace4@gmail.com> • 320 1171929 • 23 years old\
-> Monza, Milan, January 2018\
+> Monza, Milan, March 2018\
 > <h6>An always updated version of this document is available at [www.avivace.com/cv.pdf](https://avivace.com/cv.pdf)</h6>
