@@ -13,13 +13,13 @@ Education
 ---------
 
 2018-2020 (Expected)
-:   **M.Sc, Computer Science**; Università di Milano Bicocca
+:   **MSc, Computer Science**; Università di Milano Bicocca
 
     Notable sujects I’m taking: Machine Learning, Concurrent Systems.
 
 
 2014-2017
-:   **B.Sc, Computer Science**; Università di Milano Bicocca
+:   **BSc, Computer Science**; Università di Milano Bicocca
 
     Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology.\
     [Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): Integer Linear Programming approaches on the DNA recombination problem
@@ -37,11 +37,15 @@ Experience
 
 January 2018 - Present
 :   **Software Consultant, Full Stack Developer**; Hawks Holding, Arcore
-:   Freelance. Mantaining and designing websites in Wordpress. Developing ad-hoc tools to support the businesses of the Holding and expose/showcase them to the clients.
+:   Mantaining and designing Wordpress websites with commercial themes and additional components. Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public.
+
+April 2018 - Present
+:   **Technical Leader, Tutor, Thesis Advisor**; Università degli Studi di Milano Bicocca, Milan
+:   Leading the development of additional features for the [CoderBot](http://www.coderbot.org/) project. Tutoring and assisting 6 graduating students (MSc and BSc in Computer Science), each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Remote Update system, Emulator, Code Editor).
 
 October 2017 - Present
-:   **Frontend Developer, UX Designer** Università degli Studi di Milano Bicocca, Milan
-:   Scholarship, part-time. Redesigning an interface and renewing the software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children.
+:   **Full Stack Developer, UX Designer**; Università degli Studi di Milano Bicocca, Milan
+:   Scholarship holder. Leading the development of a new software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Raspberry Pi 2, 3.Vue.JS, Vuetify, Axios, Python, Flask, Debian/Raspbian, QEMU.
 
 August 2017 - December 2017
 :   **Software Consultant, Full Stack Developer**; G4i, Arcore
@@ -61,6 +65,7 @@ Technical Experience
 Notable work
 :   Some of my recent and popular work includes:
 
+    - [fuse](https://github.com/avivace/fuse) - A file upload web service (similar to "We-Transfer") built ground up with Vue.js, Axios, Bootstrap-Vue, Axios, Webpack, Flask and sqlite3.
     - [dailyProgrammer](https://play.google.com/store/apps/details?id=avivace.daily_programmer) - An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
       20K total downloads and 7K weekly users on Android Devices and more on the [web version](https://dp.avivace.com/).\
       Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with javascript interface) as Android app.
