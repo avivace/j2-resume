@@ -35,9 +35,10 @@ Education
 Experience
 ----------
 
-January 2018 - Present
-:   **Software Consultant, Full Stack Developer**; Hawks Holding, Arcore
-:   Mantaining and designing Wordpress websites with commercial themes and additional components. Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public.
+September 2018 - Present
+:   **Technical Coach, Teacher**; MAW Men At Work, IC Moisè Loria, Milano.
+:   Teaching a coding class in middle school for [Girls Code It Better](http://www.girlscodeitbetter.it), an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by [Girls Who Code](https://girlswhocode.com/).
+
 
 April 2018 - Present
 :   **Technical Leader, Tutor, Thesis Advisor**; Università degli Studi di Milano Bicocca, Milan
@@ -45,7 +46,11 @@ April 2018 - Present
 
 October 2017 - Present
 :   **Full Stack Developer, UX Designer**; Università degli Studi di Milano Bicocca, Milan
-:   Scholarship holder. Leading the development of a new software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Raspberry Pi 2, 3.Vue.JS, Vuetify, Axios, Python, Flask, Debian/Raspbian, QEMU.
+:   Scholarship holder. Leading the development of a new software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 2, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian, QEMU.
+
+January 2018 - Present
+:   **Software Consultant, Full Stack Developer**; Hawks Holding, Arcore
+:   Mantaining and designing Wordpress websites with commercial themes and additional components. Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public.
 
 August 2017 - December 2017
 :   **Software Consultant, Full Stack Developer**; G4i, Arcore
