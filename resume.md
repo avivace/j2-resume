@@ -67,7 +67,7 @@ June 2015 - May 2017
 Academic Results
 ----------
 
-:   **Digital Systems**; 30/30
+:   **Digital Systems**; 6 ects, Score: 30/30
 :   Description, final project.
 
 
