@@ -64,6 +64,13 @@ June 2015 - May 2017
 :   **Web Manager**; SoleLuna Club, Concorezzo
 :   Facebook campaigns, graphics and assets, designed a renewed website for the business.
 
+Academic Results
+----------
+
+:   **Digital Systems**; 6 ects, Score: 30/30
+:   Description, final project.
+
+
 Technical Experience
 --------------------
 
