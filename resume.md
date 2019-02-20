@@ -12,20 +12,17 @@ Antonio Vivace
 Education
 ---------
 
-2018-2020 (Expected)
+2018-2020 (*expected*)
 :   **MSc, Computer Science**; Università di Milano Bicocca
-
-    Notable sujects I’m taking: Machine Learning, Concurrent Systems.
-
 
 2014-2017
 :   **BSc, Computer Science**; Università di Milano Bicocca
 
     Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology.\
-    [Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): Integer Linear Programming approaches on the DNA recombination problem
+    [Thesis](https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf): *Integer Linear Programming approaches on the DNA recombination problem*
 
 2010-2014
-:   **High School Diploma at Liceo Scientifico**; ITCG A. Mapelli, Monza
+:   **High School Diploma at Liceo Scientifico Tecnologico**; ITCG A. Mapelli, Monza
 
     *Science High School*
 
@@ -48,7 +45,7 @@ October 2017 - Present
 :   **Full Stack Developer, UX Designer**; Università degli Studi di Milano Bicocca, Milan
 :   Scholarship holder. Leading the development of a new software for [CoderBot](http://www.coderbot.org/), an educative robot used in primary schools to teach coding and algorithmic thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 2, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian, QEMU.
 
-January 2018 - Present
+January 2018 - January 2019
 :   **Software Consultant, Full Stack Developer**; Hawks Holding, Arcore
 :   Mantaining and designing Wordpress websites with commercial themes and additional components. Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public.
 
@@ -67,9 +64,12 @@ June 2015 - May 2017
 Academic Results
 ----------
 
-:   **Digital Systems**; 6 ects, Score: 30/30
-:   Description, final project.
-
+- **Data Technology and Machine Learning** 12 ects, /30.
+          [Project](https://github.com/avivace/basket-shots): *Predicting basket shots outcomes using SVM*.
+- **Digital Systems** 6 ects, 30/30. [Project](https://github.com/avivace/VHDLtrafficlights): *VHDL implementation of a semaphore on a Xilinx FPGA*.
+- **Software Quality** 6 ects, 30/30.
+- **Software Process** 6 ects, 30/30.
+- **Methods for numerical analysis** 6 ects, 30 cum laude/30.
 
 Technical Experience
 --------------------
@@ -108,6 +108,6 @@ Hobbies
 
 ----
 
-> <avivace4@gmail.com> • 320 1171929 • 23 years old\
-> Monza, Milan, March 2018\
+> <avivace4@gmail.com> • 320 1171929 • 24 years old\
+> Monza, Milan, February 2019\
 > <h6>An always updated version of this document is available at [www.avivace.com/cv.pdf](https://avivace.com/cv.pdf)</h6>
