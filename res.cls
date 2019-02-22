@@ -234,7 +234,7 @@
 % this is used to print the name and address at the top of
 % the page with a hline in between
 %
-\def\namefont{\huge\bf}
+\def\namefont{\Huge}
 \def\@linename{\begingroup
   \def\\{, }
   {\namefont\@name}
