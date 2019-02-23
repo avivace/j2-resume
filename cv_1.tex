@@ -23,9 +23,18 @@
 \documentclass[11pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
 
 \usepackage{fontspec,kantlipsum}
-\usepackage{hyperref}
+\usepackage{hyperref,xcolor}
 \setmainfont{Inter}
 \newfontfamily\sbb{Inter Semi Bold}
+\newfontfamily\headfont{Abel}
+
+\definecolor{darkred}{HTML}{b71c1c}
+
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be black
+  urlcolor=darkred,
+}
+
 
 %\usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
@@ -38,7 +47,8 @@
 %	YOUR NAME AND ADDRESS(ES) SECTION
 %----------------------------------------------------------------------------------------
 
-\name{Antonio Vivace\\ \\} % Your name at the top
+
+{\fontsize{40}{50}\headfont\centerline{\addfontfeature{LetterSpace=-4.5}Antonio Vivace}} % Your name at the top
 
 % If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
 
@@ -68,9 +78,10 @@ avivace4 (at) gmail.com \\
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-{\Large \section{\centerline{EDUCATION}}}
+\vspace{8pt}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}EDUCATION}}}
 
-\vspace{8pt} % Gap between title and text
+\vspace{10pt} % Gap between title and text
 
 
 {\sl Università degli studi di Milano Bicocca} \hfill 2018 -- 2020 (\textit{expected}) \\ 
@@ -103,9 +114,9 @@ Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Lin
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-{\Large \section{\centerline{PROFESSIONAL EXPERIENCE}}}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}PROFESSIONAL EXPERIENCE}}}
 
-\vspace{8pt} % Gap between title and text
+\vspace{10pt} % Gap between title and text
 
 {\sl MAW Men At Work, IC Moisè Loria, Milan} \hfill September 2018 -- Present \\
 {\sbb Technical Coach, Teacher } \hfill Education \\
@@ -149,8 +160,8 @@ Facebook campaigns, graphics and assets, designed a renewed website for the busi
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-{\Large \section{\centerline{PROJECTS}}}
-\vspace{8pt}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}PROJECTS}}}
+\vspace{10pt}
 Some of my recent and popular work includes:
 
 
