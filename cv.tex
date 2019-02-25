@@ -25,6 +25,10 @@
 \usepackage{fontspec,kantlipsum}
 \usepackage{hyperref,xcolor}
 \setmainfont{Inter}
+\setmainfont[
+ BoldFont={Inter Semi Bold}, 
+ ]{Inter}
+
 \newfontfamily\sbb{Inter Semi Bold}
 \newfontfamily\headfont{Abel}
 
@@ -35,6 +39,8 @@
   urlcolor=darkred,
 }
 
+\pagenumbering{arabic}
+\pagestyle{plain}
 
 %\usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
@@ -98,7 +104,7 @@ avivace4 (at) gmail.com \\
 {\sl Università degli studi di Milano Bicocca} \hfill 2014 -- 2017 \\ 
 {\sbb Bachelor's Degree}, Computer Science\\ 
 Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology. \\
-\href{https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf}{THESIS}: Integer Linear Programming approaches on the DNA recombination problem.
+\href{https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf}{Thesis}: Integer Linear Programming approaches for the DNA recombination problem.
 
 {\sl ITCG Achille Mapelli, Monza } \hfill 2010 -- 2014 \\ 
 {\sbb Science High School Diploma}, Liceo Scientifico Tecnologico
@@ -120,29 +126,29 @@ Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Lin
 
 {\sl MAW Men At Work, IC Moisè Loria, Milan} \hfill September 2018 -- Present \\
 {\sbb Technical Coach, Teacher } \hfill Education \\
-Teaching a coding class in middle school for \href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \href{https://girlswhocode.com/}{Girls Who Code}.
+Teaching a coding class (3 weekly hours) in middle school for \href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \href{https://girlswhocode.com/}{Girls Who Code}.
 
 {\sl Università degli Studi di Milano Bicocca, Milan} \hfill October 2017 -- Present \\
 {\sbb Full Stack Developer, UX Designer} (Scholarship holder) \hfill Research\\
-Leading the development of a new software for \href{ttp://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and algorithmic thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian.
+Leading the development of a new software for \href{ttp://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and introduce computational thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new reactive web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian.
 
 \pagebreak
 {\sl Università degli Studi di Milano Bicocca, Milan} \hfill April 2018 -- Present \\
 {\sbb Technical Leader, Tutor, Thesis Advisor}  \hfill Research \\
 Leading the development of additional features for the \href{ttp://www.coderbot.org/}{CoderBot} project. Tutoring and assisting 7 graduating students, each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Update/Reset system, Persistence, Blockly-Python conversion).
 
-{\sl Hawks Holding, Arcore} \hfill 
+{\sl Hawks Holding S.r.l., Arcore} \hfill 
 January 2018 -- January 2019 \\
 {\sbb Project Manager. Full Stack Developer} \hfill Energy, renewables \\
-Lead the full stack web application:a provisional software about the installation of new wind turbines.
+Lead the full stack development of a restful web application: a provisional software about the installation of new wind turbines. Node.js.js, Mongoose, Bootstrap.\\
 Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public. Mantaining and designing Wordpress websites with commercial themes and additional components.
 
-{\sl G4i, Arcore} \hfill 
+{\sl G4i S.r.l., Arcore} \hfill 
 August 2017 -- December 2017\\
 {\sbb Software Consultant, Full Stack Developer}   \hfill Energy, renewables  \\
-Developoment of a web application: Node, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
+Developoment of a web application: Node.js, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
 
-{\sl IMPRECOM SRL, Monza} \hfill 
+{\sl IMPRECOM S.r.l., Monza} \hfill 
 September 2014 -- Present \\
 {\sbb IT Technician}\hfill Construction \\
 Freelance. Consulting and Sysadmin tasks: mantaining and configuring computers and the network.
@@ -162,42 +168,48 @@ Facebook campaigns, graphics and assets, designed a renewed website for the busi
 
 {\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}PROJECTS}}}
 \vspace{10pt}
-Some of my recent and popular work includes:
 
-
-\begin{itemize}
-\item \href{https://github.com/avivace/fuse}{fuse} - A file upload web service (similar to "We-Transfer") built ground up with Vue.js, Axios, Bootstrap-Vue, Webpack, Flask and sqlite3.
-\item \href{https://play.google.com/store/apps/details?id=avivace.daily_programmer}{dailyProgrammer} - An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
-20K total downloads and 7K weekly users on Android Devices and more on the \href{https://dp.avivace.com/}{web version}.
-Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with javascript interface) as Android app.
-\item \href{https://gbhh.avivace.com}{Homebrew Hub} - A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
-Basically a CMS built ground up using Node, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
-\item \href{https://github.com/avivace/rssnotifier}{RSS Notifier}  - Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node, database is SQLite3.
-\item \href{https://github.com/avivace/radiogit}{RadioGit}- Telegram bot to broadcast GitHub repository events and activities to private and group chats. Supports user and group preferences.\
-Built on Python 3 with SQLite3 as database, the webhook listener is in Node.
-\item \href{https://github.com/avivace/ardumonitor}{Ardumonitor} - Real time monitoring of a remote Linux machine with Arduino and a LCD display.
-\item ... the complete list of projects I mantain or contribute to is available on my \href{https://github.com/avivace}{GitHub page}.
-
-\end{itemize}
-
-\section{Side Projects}
 I've worked in a number of side project in which I implemented full stack applications using a lot of different programming languages, frameworks and different technologies, everytime looking for another challenge. I worked alone, in a team, and lead open source projects raised or wanted by the community.
 
-\section{Open Source}
-I partecipate in civic-hacking projects, I love producing quality documentation for the community and everything I worked on is available with an Open Source license.
+The complete list of the project I contributed to or mantain is available on my \href{https://github.com/avivace}{GitHub page}.
 
-\section{Web}
-I worked and learnt a lot of backend and frontend frameworks, CMS, and various components. I developed entire projects taking care of the full stack, extensively using Wordpress, Node (with Express.js), Bootstrap 3 and 4, MaterializeCSS, MongoDB (and mongoose), MySQL, sqlite and more.
+Some of the recent and popular ones:
 
-\section{Languages}
-In university I had the chance to work on assignments and course projects using Prolog and LISP (Programming Paradigms), Ruby (Computational Biology), R (Statistics) and C (Embedded Systems). Personally I really love Javascript, Node and its community plugin ecosystem.
 
-\section{Hobbies}
+{\sbb \href{https://github.com/avivace/fuse}{fuse}} \hfill 
+Vue.js, Flask, Boostrap \\
+Restful, reactive and responsive file upload web service (similar to "We-Transfer") built ground up with Vue.js, Axios, Bootstrap-Vue, Webpack. Backend is in Flask and SQLite3.
+
+{\sbb \href{https://play.google.com/store/apps/details?id=avivace.daily_programmer}{dailyProgrammer} } \hfill 
+Javascript, Android \\
+An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
+20K total downloads and 7K weekly users on Android Devices and more on the \href{https://dp.avivace.com/}{web version}.
+Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with a javascript interface to use native functionalities) as Android app.
+
+{\sbb \href{https://gbhh.avivace.com}{Homebrew Hub}} \hfill 
+Node.js, Bootstrap \\ 
+A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
+Basically a CMS built ground up using Node.js, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
+
+{\sbb \href{https://github.com/avivace/rssnotifier}{RSS Notifier}} \hfill 
+Node.js \\ 
+Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node.js, database is SQLite3.
+
+{\sbb \href{https://github.com/avivace/radiogit}{RadioGit}} \hfill 
+Node.js, Python \\ 
+Telegram bot to broadcast GitHub repository events and activities to private and group chats. Supports user and group preferences.\
+Built on Python with SQLite3 as database, the webhook listener is in Node.js.
+
+{\sbb \href{https://github.com/avivace/ardumonitor}{Ardumonitor}} \hfill 
+Processing, JS \\ 
+Real time monitoring of a remote Linux machine with Arduino and a LCD display.
+
+\section{{\centerline{HOBBIES}}}
 Old school hardware/software, photography, typography and electronics. 
 
 \vspace*{\fill}
 
-{\small Monza, February 2019.\\
+{\footnotesize Monza, February 2019.\\
 An always updated version of this document is available at \href{https://avivace.com/cv.pdf}{avivace.com/cv.pdf}}
 
 \end{resume} 
