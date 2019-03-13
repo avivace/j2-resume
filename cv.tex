@@ -22,15 +22,15 @@
 
 \documentclass[11pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
 
-%\usepackage{fontspec,kantlipsum}
+\usepackage{fontspec,kantlipsum}
 \usepackage{hyperref,xcolor}
-%\setmainfont{Inter}
-%\setmainfont[
-% BoldFont={Inter Semi Bold}, 
-% ]{Inter}
+\setmainfont{Inter}
+\setmainfont[
+ BoldFont={Inter Semi Bold}, 
+ ]{Inter}
 
-%\newfontfamily\textbf{Inter Semi Bold}
-%\newfontfamily\headfont{Abel}
+\newfontfamily\sbb{Inter Semi Bold}
+\newfontfamily\headfont{Abel}
 
 \definecolor{darkred}{HTML}{b71c1c}
 
@@ -46,7 +46,7 @@
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
 
 \newsectionwidth{0pt} % Stops section indenting
-\renewcommand\familydefault{\sfdefault}
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@
 %----------------------------------------------------------------------------------------
 
 
-\Large{\centerline{Antonio Vivace}} % Your name at the top
+{\fontsize{40}{50}\headfont\centerline{\addfontfeature{LetterSpace=-4.5}Antonio Vivace}} % Your name at the top
 
 % If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
 
@@ -89,34 +89,33 @@ Milan, Italy\\
 %----------------------------------------------------------------------------------------
 
 \vspace{8pt}
-{\Large \section{\centerline{EDUCATION}}}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}EDUCATION}}}
 
 \vspace{10pt} % Gap between title and text
 
 
 {\sl Università degli studi di Milano Bicocca} \hfill 2018 -- 2020 (\textit{expected}) \\ 
-\textbf{Master of Science}, Computer Science \\
-Completed courses:
+{\sbb Master of Science}, Computer Science \\
+Grade average: 29.7/30 (\~{}GPA 4.0). Taken subjecs:
 \begin{itemize}
-\item Data Technology and Machine Learning. 12 ects.%, 29/30.
-\item Digital Systems. 6 ects.%, 30/30.
-\item Software Quality. 6 ects.%, 30/30.
-\item Software Process. 6 ects.%, 30/30.
-\item Methods for numerical analysis. 6 ects.%, 30 cum laude/30.
+\item Data Technology and Machine Learning. 12 ects.
+\item Digital Systems. 6 ects.
+\item Software Quality. 6 ects.
+\item Software Process. 6 ects.
+\item Methods for numerical analysis. 6 ects.
+
 \end{itemize}
 
-Current grade average: 29.7/30.
-
 {\sl Università degli studi di Milano Bicocca} \hfill 2014 -- 2017 \\ 
-\textbf{Bachelor's Degree}, Computer Science\\ 
+{\sbb Bachelor's Degree}, Computer Science\\ 
 Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology. \\
 \href{https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf}{Thesis}: Integer Linear Programming approaches for the DNA recombination problem.
 
 {\sl ITCG Achille Mapelli, Monza } \hfill 2010 -- 2014 \\ 
-\textbf{Science High School Diploma}, Liceo Scientifico Tecnologico
+{\sbb Science High School Diploma}, Liceo Scientifico Tecnologico
 
 {\sl University of Cambridge ESOL Examinations}\hfill 2013 \\ 
-\textbf{FCE}, First Certificate in English
+{\sbb FCE}, First Certificate in English
 
 %----------------------------------------------------------------------------------------
  
@@ -126,41 +125,41 @@ Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Lin
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-{\Large \section{\centerline{PROFESSIONAL EXPERIENCE}}}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}PROFESSIONAL EXPERIENCE}}}
 
 \vspace{10pt} % Gap between title and text
 
 {\sl MAW Men At Work, IC Moisè Loria, Milan} \hfill September 2018 -- Present \\
-\textbf{Technical Coach, Teacher} \hfill Education \\
+{\sbb Technical Coach, Teacher } \hfill Education \\
 Teaching a coding class (3 weekly hours) in middle school for \href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \href{https://girlswhocode.com/}{Girls Who Code}.
 
 {\sl Università degli Studi di Milano Bicocca, Milan} \hfill October 2017 -- Present \\
-\textbf{Full Stack Developer, UX Designer} (Scholarship holder) \hfill Research\\
+{\sbb Full Stack Developer, UX Designer} (Scholarship holder) \hfill Research\\
 Leading the development of a new software for \href{ttp://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and introduce computational thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new reactive web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian.
 
 {\sl Università degli Studi di Milano Bicocca, Milan} \hfill April 2018 -- Present \\
-\textbf{Technical Leader, Tutor, Thesis Advisor}  \hfill Research \\
+{\sbb Technical Leader, Tutor, Thesis Advisor}  \hfill Research \\
 Leading the development of additional features for the \href{ttp://www.coderbot.org/}{CoderBot} project. Tutoring and assisting 7 graduating students, each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Update/Reset system, Persistence, Blockly-Python conversion).
 
 {\sl Hawks Holding S.r.l., Arcore} \hfill 
 January 2018 -- January 2019 \\
-\textbf{Project Manager. Full Stack Developer} \hfill Energy, renewables \\
+{\sbb Project Manager. Full Stack Developer} \hfill Energy, renewables \\
 Lead the full stack development of a restful web application: a provisional software about the installation of new wind turbines. Node.js.js, Mongoose, Bootstrap.\\
 Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public. Mantaining and designing Wordpress websites with commercial themes and additional components.
 
 {\sl G4i S.r.l., Arcore} \hfill 
 August 2017 -- December 2017\\
-\textbf{Software Consultant, Full Stack Developer}   \hfill Energy, renewables  \\
+{\sbb Software Consultant, Full Stack Developer}   \hfill Energy, renewables  \\
 Developoment of a web application: Node.js, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows.
 
 {\sl IMPRECOM S.r.l., Monza} \hfill 
 September 2014 -- Present \\
-\textbf{IT Technician}\hfill Construction \\
+{\sbb IT Technician}\hfill Construction \\
 Freelance. Consulting and Sysadmin tasks: mantaining and configuring computers and the network.
 
 {\sl SoleLuna Club, Concorezzo} \hfill 
 June 2015 -- May 2017 \\
-\textbf{Web Manager, IT Technician }\hfill Entertainment\\
+{\sbb Web Manager, IT Technician }\hfill Entertainment\\
 Facebook campaigns, graphics and assets, designed a renewed website for the business.
 
 %----------------------------------------------------------------------------------------
@@ -171,38 +170,38 @@ Facebook campaigns, graphics and assets, designed a renewed website for the busi
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-{\Large \section{\centerline{PROJECTS}}}
+{\Large \section{\centerline{\addfontfeature{LetterSpace=7.5}PROJECTS}}}
 \vspace{10pt}
 
 I've worked in a number of side projects in which I implemented full stack applications using a lot of different programming languages, frameworks and different technologies, everytime looking for another challenge. I worked alone, in a team, and lead open source projects raised or wanted by the community.
 
 The complete list is available on my \href{https://github.com/avivace}{GitHub page}.
 
-\textbf{ \href{https://github.com/avivace/fuse}{fuse}} \hfill 
+{\sbb \href{https://github.com/avivace/fuse}{fuse}} \hfill 
 Vue.js, Flask, Boostrap \\
 Restful, reactive and responsive file upload web service (similar to "We-Transfer") built ground up with Vue.js, Axios, Bootstrap-Vue, Webpack. Backend is in Flask and SQLite3.
 
-\textbf{ \href{https://play.google.com/store/apps/details?id=avivace.daily_programmer}{dailyProgrammer} } \hfill 
+{\sbb \href{https://play.google.com/store/apps/details?id=avivace.daily_programmer}{dailyProgrammer} } \hfill 
 Javascript, Android \\
 An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
 20K total downloads and 7K weekly users on Android Devices and more on the \href{https://dp.avivace.com/}{web version}.
 Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with a javascript interface to use native functionalities) as Android app.
 
-\textbf{ \href{https://gbhh.avivace.com}{Homebrew Hub}} \hfill 
+{\sbb \href{https://gbhh.avivace.com}{Homebrew Hub}} \hfill 
 Node.js, Bootstrap \\ 
 A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
 Basically a CMS built ground up using Node.js, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
 
-\textbf{ \href{https://github.com/avivace/rssnotifier}{RSS Notifier}} \hfill 
+{\sbb \href{https://github.com/avivace/rssnotifier}{RSS Notifier}} \hfill 
 Node.js \\ 
 Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node.js, database is SQLite3.
 
-\textbf{ \href{https://github.com/avivace/radiogit}{RadioGit}} \hfill 
+{\sbb \href{https://github.com/avivace/radiogit}{RadioGit}} \hfill 
 Node.js, Python \\ 
 Telegram bot to broadcast GitHub repository events and activities to private and group chats. Supports user and group preferences.\
 Built on Python with SQLite3 as database, the webhook listener is in Node.js.
 
-\textbf{ \href{https://github.com/avivace/ardumonitor}{Ardumonitor}} \hfill 
+{\sbb \href{https://github.com/avivace/ardumonitor}{Ardumonitor}} \hfill 
 Processing, JS \\ 
 Real time monitoring of a remote Linux machine with Arduino and a LCD display.
 
