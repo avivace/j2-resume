@@ -2,19 +2,19 @@
 
 ### Requirements
 
-- texlive
-- LuaTeX
+- a TeX distribution
+- LuaTeX (and the `lualatex` executable)
 
 
 On debian:
 
-```
+```bash
 sudo apt install texlive-base texlive-luatex
 ```
 
 ### Build
 
-```
+```bash
 lualatex cv.tex
 ```
 
