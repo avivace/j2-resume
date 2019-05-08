@@ -47,20 +47,25 @@
 %----------------------------------------------------------------------------------------
 
 
-{\fontsize{40}{50}\headfont\centerline{\addfontfeature{LetterSpace=-4.5}Antonio Vivace}} % Your name at the top
+{\fontsize{40}{50}\headfont\centerline{\addfontfeature{LetterSpace=-4.5}
+\jv{data.name}
+}}
+
+ % Your name at the top
 
 % If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
 
 \address{ 
-\href{https://avivace.com}{avivace.com}\\ 
-\href{https://github.com/avivace}{github.com/avivace}\\
-avivace4@gmail.com \\ 
+\href{\jv{data.website}}{\jv{data.website[8:]}}\\ 
+\href{\jv{data.github}}{\jv{data.github[8:]}}\\
+\jv{data.email}\\ 
 } % Your address 2
 
 \address{
-Milan, Italy\\
-24 years old\\
-(+39) 320 1171929}
+\jv{data.address} \\
+\jv{data.age} years old\\
+\jv{data.phone}
+}
 
 
 %----------------------------------------------------------------------------------------
@@ -122,22 +127,20 @@ Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Lin
 
 \vspace{10pt} % Gap between title and text
 
-{\sl MAW Men At Work, IC Moisè Loria, Milan} \hfill September 2018 -- Present \\
-{\sbb Technical Coach, Teacher } \hfill Education
-\vspace{4pt} \\
-\small{\textcolor{darkgray}{
-Teaching a coding class (3 weekly hours) in middle school for \href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \href{https://girlswhocode.com/}{Girls Who Code}.}}
+\jb{ for experience in data.work }
 
 \normalsize{
-{\sl Università degli Studi di Milano Bicocca, Milan} \hfill October 2017 -- Present \\
-{\sbb Full Stack Developer, UX Designer} (Scholarship holder) \hfill Research}
-\vspace{4pt} \\
-\small{\textcolor{black!95}{
-Leading the development of a new software for \href{ttp://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and introduce computational thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new reactive web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian.}}
+{\sl \jv{experience.place} } \hfill \jv{experience.period}\\
+{\sbb \jv{experience.position} } \hfill \jv{experience.field}}\vspace{4pt} \\
+\small{\textcolor{darkgray}{
+\jv{experience.description}
+}}
+
+\jb{ endfor }
 
 {\sl Università degli Studi di Milano Bicocca, Milan} \hfill April 2018 -- Present \\
 {\sbb Technical Leader, Tutor, Thesis Advisor}  \hfill Research \\
-Leading the development of additional features for the \href{ttp://www.coderbot.org/}{CoderBot} project. Tutoring and assisting 7 graduating students, each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Update/Reset system, Persistence, Blockly-Python conversion).
+Leading the development of additional features for the \href{http://www.coderbot.org/}{CoderBot} project. Tutoring and assisting 7 graduating students, each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Update/Reset system, Persistence, Blockly-Python conversion).
 
 {\sl Hawks Holding S.r.l., Arcore} \hfill 
 January 2018 -- January 2019 \\

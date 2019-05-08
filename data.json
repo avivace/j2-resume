@@ -1,0 +1,35 @@
+{
+	"name" : "Antonio Vivace",
+	"address" : "Milan, Italy",
+	"age" : "24",
+	"phone" : "(+39) 320 1171929",
+	"website": "https://avivace.com",
+	"github": "https://github.com/avivace",
+	"email": "avivace4@gmail.com",
+	"work": [
+		{
+			"position": "Technical Coach, Teacher",
+			"place": "MAW Men At Work, IC Moisè Loria, Milan",
+			"field": "Education",
+			"period" : "September 2018 -- Present",
+			"description": "Teaching a coding class (3 weekly hours) in middle school for \\href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \\href{https://girlswhocode.com/}{Girls Who Code}."
+		},
+		{
+			"position": "Full Stack Developer, UX Designer (Scholarship holder)",
+			"place": "Università degli Studi di Milano Bicocca, Milan",
+			"field": "Research",
+			"period" : "October 2017 -- Present",
+			"description": "Leading the development of a new software for \\href{http://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and introduce computational thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new reactive web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian."
+		},
+		{
+			"position": "a",
+			"place": "a",
+			"field": "a",
+			"period" : "a",
+			"description": "a"
+		}
+
+
+	]
+
+}
