@@ -1,8 +1,8 @@
 {
-	"name" : "Antonio Vivace",
-	"address" : "Milan, Italy",
-	"age" : "24",
-	"phone" : "(+39) 320 1171929",
+	"name": "Antonio Vivace",
+	"address": "Milan, Italy",
+	"age": "24",
+	"phone": "(+39) 320 1171929",
 	"website": "https://avivace.com",
 	"github": "https://github.com/avivace",
 	"email": "avivace4@gmail.com",
@@ -11,25 +11,55 @@
 			"position": "Technical Coach, Teacher",
 			"place": "MAW Men At Work, IC Moisè Loria, Milan",
 			"field": "Education",
-			"period" : "September 2018 -- Present",
+			"period": "September 2018 -- Present",
 			"description": "Teaching a coding class (3 weekly hours) in middle school for \\href{http://www.girlscodeitbetter.it}{Girls Code It Better}, an Italian project trying to bridge the gender gap in STEM subjects, similar to the after-school clubs organized by \\href{https://girlswhocode.com/}{Girls Who Code}."
 		},
 		{
 			"position": "Full Stack Developer, UX Designer (Scholarship holder)",
 			"place": "Università degli Studi di Milano Bicocca, Milan",
 			"field": "Research",
-			"period" : "October 2017 -- Present",
+			"period": "October 2017 -- Present",
 			"description": "Leading the development of a new software for \\href{http://www.coderbot.org/}{CoderBot}, an educative robot used in primary schools to teach coding and introduce computational thinking to children. Documenting the software and hardware architecture, restructuring the existing stack. Developing the new reactive web application in Vue.js while rewriting the backend and the APIs using OpenAPI/Swagger standards and Connexion. Raspberry Pi 3, Vue.js, VueX, Vuetify, Axios, Python, Flask, Connexion, Debian/Raspbian."
 		},
+
 		{
-			"position": "a",
-			"place": "a",
-			"field": "a",
-			"period" : "a",
-			"description": "a"
+			"place": "Università degli Studi di Milano Bicocca, Milan",
+			"period": "April 2018 -- Present",
+			"position": "Technical Leader, Tutor, Thesis Advisor",
+			"field": "Research",
+			"description": "Leading the development of additional features for the \\href{http://www.coderbot.org/}{CoderBot} project. Tutoring and assisting 7 graduating students, each one implementing a new macro feature for the project for their Work/Stage experience and related final thesis (Augmented Reality, Step-by-step debugger, Update/Reset system, Persistence, Blockly-Python conversion)."
+		},
+
+		{
+			"place": "Hawks Holding S.r.l., Arcore",
+			"period": "January 2018 -- January 2019",
+			"position": "Project Manager. Full Stack Developer",
+			"field": "Energy, renewables",
+			"description": "Lead the full stack development of a restful web application: a provisional software about the installation of new wind turbines. Node.js.js, Mongoose, Bootstrap. Developing ad-hoc tools to support the businesses of the Holding and showcase them to the public. Mantaining and designing Wordpress websites with commercial themes and additional components"
+		},
+
+		{
+			"place": "G4i S.r.l., Arcore",
+			"period": "August 2017 -- December 2017",
+			"position": "Software Consultant, Full Stack Developer",
+			"field": "Energy, renewables",
+			"description": "Developoment of a web application: Node.js, Express, Passport Authentication strategies, Mongoose ORM (Mongo), Bootstrap 4. Consulting and organising developers in other projects. Setting and teaching about new workflows."
+		},
+
+		{
+			"place": "IMPRECOM S.r.l., Monza",
+			"period": "September 2014 -- Present",
+			"position": "IT Technician",
+			"field": "Construction",
+			"description": "Freelance. Consulting and Sysadmin tasks: mantaining and configuring computers and the network."
+		},
+
+		{
+			"place": "SoleLuna Club, Concorezzo",
+			"period": "June 2015 -- May 2017",
+			"position": "Web Manager, IT Technician",
+			"field": "Entertainment",
+			"description": "Facebook campaigns, graphics and assets, designed a renewed website for the business."
 		}
-
-
 	]
-
 }
