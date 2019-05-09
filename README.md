@@ -1,8 +1,8 @@
 <h1>
-<img src=".meta/name.svg" alt="j2-resume" width="250">
+<img src=".meta/name.svg" alt="j2-resume" width="200">
 </h1>
 
-> #### An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
+> An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different localisations, templates, styles and formats without having to mantain them all.
 
 <br>
 
