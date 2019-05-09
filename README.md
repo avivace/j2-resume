@@ -13,7 +13,7 @@
 - Have an agnostic data source (JSON) and edit ONLY that when updating the informations (API access to a remote endpoint exposing a compliant JSON is trivially implementable, too).
 - Have data source compliant and validated against a formal specification or schema (use JSON schema and possibly the JSON-Resume specification?). Templates must respect this schema too.
 - Easily update and version the data source using a text editor or a (visual) JSON editor;
-- Keep the hybrid Jinja2 templates clean and similar to their plain format versions;
+- Keep the hybrid Jinja2 templates clean and similar to their plain format versions (that's why a LuaLaTeX solution was scraped).
 
 ## How it looks like
 
@@ -123,7 +123,9 @@ Email: {{ email }}
 </template>
 ```
 
-## Requirements
+## Build
+
+### Requirements
 
 - a TeX distribution
 - XeLaTeX
@@ -134,14 +136,19 @@ On Debian:
 sudo apt install texlive-base pandoc python3
 ```
 
-## Build
-
-### LaTeX TeX/J2 template
+### LaTeX workflow
 
 ```bash
 python j2tex.py
 xelatex resume.tex
 ```
+
+## TODO
+
+- [ ] Rèsumè JSON schema
+- [ ] Example Vue template for the web workflow
+- [ ] Example MD/HTML5 template for the pandoc workflow
+- [ ] pandoc preprocessor to allow Markdown in the field of the json, then preprocess to the target language in each workflow.
 
 ## Related projects
 
