@@ -2,27 +2,51 @@
 <img src=".meta/name.svg" alt="j2-resume" width="250">
 </h1>
 
+An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
+
 ![Architecture](.meta/flow.svg)
 
-### Requirements
+## Goals
+
+- Have an agnostic data source and just edit that when updating the informations;
+- Easily edit the data source using a text editor or a (visual) JSON editor;
+- If the language doesn't support templating, keep their hybrid Jinja2 templates clean and similar to their plain format versions;
+- Keep the data source compliant and validated against a resume JSON schema (use JSON Resume specification?). Templates must respect that schema too.
+
+## Requirements
 
 - a TeX distribution
-- LuaTeX (and the `lualatex` executable)
+- XeLaTeX
 
-
-On debian:
-
-```bash
-sudo apt install texlive-base texlive-luatex
-```
-
-### Build
+On Debian:
 
 ```bash
-lualatex cv.tex
+sudo apt install texlive-base pandoc
 ```
 
-### References
+## Build
+
+### LaTeX TeX/J2 template
+
+```bash
+python j2tex.py
+xelatex cv_render.tex
+```
+
+### VueJS web version
+
+TODO
+
+### markdown/pandoc exports
+
+TODO
+
+
+## Related projects
+
+If you to remain sane, it may be healtier to use something like [pandoc-resume](https://github.com/mszep/pandoc_resume).
+
+## References
 
 Various resources, links and threads examined for the project.
 
