@@ -1,5 +1,5 @@
 <h1>
-<img src=".meta/name.svg" alt="j2-resume" width="400">
+<img src=".meta/name.svg" alt="j2-resume" width="250">
 </h1>
 
 ![Architecture](.meta/flow.svg)
