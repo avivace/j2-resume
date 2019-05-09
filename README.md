@@ -100,12 +100,28 @@ We plug those two and we get a fancy LaTeX render, obtaining:
 
 <img src=".meta/pdf_sample.png" alt="latex preview">
 
-### Web/VueJS 
+### React/Vue
 
-We can also plug the data source into a simple Vue component, and get a fancy web responsive, mobile-first, crowd-funded reactive single page application.
-We don't need any hackish templating in this case, since Vue supports templating extracting and iterating JSON sources out of the box.
+Recent tools have native support for plugging JSON data.
+E.g. on a Vue component:
 
-TODO
+```
+<title>{{ name }} rèsumè</title>
+Name: {{ name }}
+Address: {{ address }}
+Age: {{ age }}
+Phone: {{ phone }}
+Website: {{ website }}
+GitHub: {{ github }}
+Email: {{ email }} 
+
+<subtitle> Education </subtitle>
+<template v-for="degree in education">
+    <h3>{{ degree.title }}</h3>
+    <subtitle>{{ degree.school }}<br>
+    <i>{{ degree.field }}</i></subtitle>
+</template>
+```
 
 ## Requirements
 
@@ -115,7 +131,7 @@ TODO
 On Debian:
 
 ```bash
-sudo apt install texlive-base pandoc
+sudo apt install texlive-base pandoc python3
 ```
 
 ## Build
@@ -124,16 +140,8 @@ sudo apt install texlive-base pandoc
 
 ```bash
 python j2tex.py
-xelatex cv_render.tex
+xelatex resume.tex
 ```
-
-### VueJS web version
-
-TODO
-
-### markdown/pandoc exports
-
-TODO
 
 ## Related projects
 
