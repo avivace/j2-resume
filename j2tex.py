@@ -18,7 +18,7 @@ latex_jinja_env = jinja2.Environment(
 	loader = jinja2.FileSystemLoader(os.path.abspath('.'))
 )
 
-template = latex_jinja_env.get_template('cv.tex')
+template = latex_jinja_env.get_template('template-redinter.tex')
 
 with open('data.json', 'r') as file:
 	try:
@@ -26,6 +26,6 @@ with open('data.json', 'r') as file:
 	except ValueError:
 		sys.exit("Not a valid JSON")
 
-with open('cv_render.tex', 'w') as file:
+with open('resume.tex', 'w') as file:
 	file.write(template.render(data=data))
 	print("Tex successfully compiled")
