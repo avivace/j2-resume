@@ -91,29 +91,23 @@
 
 \vspace{10pt} % Gap between title and text
 
+\jb{ for edu in data.education }
+{\sl \jv{edu.school}} \hfill \jv{edu.period} \\ 
+{\sbb \jv{edu.title}}, \jv{edu.field} \\
+\jv{edu.subtitle} 
+\jb{ if edu.thesis} \\ 
+\jv{edu.thesis}
+\jb{ endif }
 
-{\sl Università degli studi di Milano Bicocca} \hfill 2018 -- 2020 (\textit{expected}) \\ 
-{\sbb Master of Science}, Computer Science \\
-Grade average: 29.7/30 (\~{}GPA 4.0). Taken subjecs:
+\jb{ if edu.subjects }
 \begin{itemize}
-\item Data Technology and Machine Learning. 12 ects.
-\item Digital Systems. 6 ects.
-\item Software Quality. 6 ects.
-\item Software Process. 6 ects.
-\item Methods for numerical analysis. 6 ects.
-
+\jb{ for subj in edu.subjects}
+\item \jv{subj.name}. \jv{subj.ects} etcs.
+\jb{ endfor }
 \end{itemize}
+\jb{ endif }
+\jb{ endfor }
 
-{\sl Università degli studi di Milano Bicocca} \hfill 2014 -- 2017 \\ 
-{\sbb Bachelor's Degree}, Computer Science\\ 
-Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology. \\
-\href{https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf}{Thesis}: Integer Linear Programming approaches for the DNA recombination problem.
-
-{\sl ITCG Achille Mapelli, Monza } \hfill 2010 -- 2014 \\ 
-{\sbb Science High School Diploma}, Liceo Scientifico Tecnologico
-
-{\sl University of Cambridge ESOL Examinations}\hfill 2013 \\ 
-{\sbb FCE}, First Certificate in English
 
 %----------------------------------------------------------------------------------------
  
