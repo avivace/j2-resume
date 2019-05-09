@@ -15,6 +15,97 @@
 - Easily update and version the data source using a text editor or a (visual) JSON editor;
 - Keep the hybrid Jinja2 templates clean and similar to their plain format versions;
 
+## How it looks like
+
+This is your *JSON data source*:
+
+```json
+
+{
+    [...]
+    "name": "Maximilian Mustermann",
+    "address": "Wien, Austria",
+    "age": "44",
+    "phone": "(+43) 231 7484174 ",
+    "website": "https://maxmusterman.com",
+    "github": "https://github.com/maxmusterman",
+    "email": "max@mustermann.at",
+    [...]
+    "education": [
+        {
+            "title":"Bachelor's Degree",
+            "field":"Engineering Science",
+            "school":" Technical University of Munich",
+        },
+        {
+            "title":"Master of Science",
+            "field":"Computational Science and Engineering",
+            "school":"Vienna University of Technology",
+        }
+    ],
+    "work": [
+        {
+            "position": "API Developer",
+            "place": "Time Lord Academy (Mount Cadon)",
+            "field": "Untempered Schism",
+            "period": "453 -- Present",
+            "description": "Protecting the ancient Law of Gallifrey exposing time-travel-as-a-service. Implementing psychic paper proof authentication protocol."
+        }
+    ]
+}
+```
+
+### LaTeX
+
+This is how a Jinja2-templated LaTeX document looks like:
+
+```tex
+[...]
+\begin{document}
+
+\jv{data.name}
+
+\address{ 
+\href{\jv{data.website}}{\jv{data.website[8:]}}\\ 
+\href{\jv{data.github}}{\jv{data.github[8:]}}\\
+\jv{data.email}\\ 
+} % Your address 2
+
+\address{
+\jv{data.address} \\
+\jv{data.age} years old\\
+\jv{data.phone}
+}
+
+\jb{ for edu in data.education }
+    {\sl \jv{edu.school}} \hfill \jv{edu.period} \\ 
+    {\sbb \jv{edu.title}}, \jv{edu.field} \\
+\jb{ endfor }
+
+
+\jb{ for experience in data.work }
+    {\sl \jv{experience.place} } \hfill \jv{experience.period}\\
+    {\sbb \jv{experience.position} } \hfill \jv{experience.field}}\vspace{4pt} \\
+    \small{\textcolor{darkgray}{
+    \jv{experience.description}
+    }
+\jb{ endfor }
+
+[...]
+```
+
+Basically, a clean TeX file with some Jinja2 syntax inside the `\jb` and `\jv` special tags.
+
+We plug those two and we get a fancy LaTeX render, obtaining:
+
+<img src=".meta/pdf_sample.png" alt="latex preview">
+
+### Web/VueJS 
+
+We can also plug the data source into a simple Vue component, and get a fancy web responsive, mobile-first, crowd-funded reactive single page application.
+We don't need any hackish templating in this case, since Vue supports templating extracting and iterating JSON sources out of the box.
+
+TODO
 
 ## Requirements
 
@@ -43,7 +134,6 @@ TODO
 ### markdown/pandoc exports
 
 TODO
-
 
 ## Related projects
 

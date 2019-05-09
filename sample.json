@@ -1,0 +1,30 @@
+{
+    "name": "Maximilian Mustermann",
+    "address": "Wien, Austria",
+    "age": "44",
+    "phone": "(+43) 231 7484174 ",
+    "website": "https://maxmusterman.com",
+    "github": "https://github.com/maxmusterman",
+    "email": "max@mustermann.at",
+
+    "education": [
+        {
+            "title":"Bachelor's Degree",
+            "field":"Engineering Science",
+            "school":"Untempered Schism"
+        },
+        {
+            "title":"Master of Science",
+            "field":"Computational Science and Engineering",
+            "school":"Time Lord Academy (Mount Cadon)"
+        }
+    ],
+    "work": [
+        {
+            "position": "API Developer",
+            "place": "Arcadia City Administration",
+            "period": "453 -- Present",
+            "description": "Protecting the ancient Law of Gallifrey exposing \\textit{time-travel-as-a-service}. Implementing psychic paper proof authentication protocol."
+        }
+    ]
+}

@@ -20,7 +20,7 @@ latex_jinja_env = jinja2.Environment(
 
 template = latex_jinja_env.get_template('template-redinter.tex')
 
-with open('data.json', 'r') as file:
+with open('sample.json', 'r') as file:
 	try:
 		data = json.loads(file.read())
 	except ValueError:
