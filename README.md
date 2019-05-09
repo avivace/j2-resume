@@ -2,16 +2,17 @@
 <img src=".meta/name.svg" alt="j2-resume" width="250">
 </h1>
 
-An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
+> ## An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
 
 ![Architecture](.meta/flow.svg)
 
 ## Goals
 
-- Have an agnostic data source and just edit that when updating the informations;
-- Easily edit the data source using a text editor or a (visual) JSON editor;
-- If the language doesn't support templating, keep their hybrid Jinja2 templates clean and similar to their plain format versions;
-- Keep the data source compliant and validated against a resume JSON schema (use JSON Resume specification?). Templates must respect that schema too.
+- Have an agnostic data source (JSON) and edit ONLY that when updating the informations (API access to a remote endpoint exposing a compliant JSON is trivially implementable, too).
+- Have data source compliant and validated against a formal specification or schema (use JSON schema and possibly the JSON-Resume specification?). Templates must respect this schema too.
+- Easily update and version the data source using a text editor or a (visual) JSON editor;
+- Keep the hybrid Jinja2 templates clean and similar to their plain format versions;
+
 
 ## Requirements
 
@@ -44,7 +45,7 @@ TODO
 
 ## Related projects
 
-If you to remain sane, it may be healtier to use something like [pandoc-resume](https://github.com/mszep/pandoc_resume).
+If you wish to remain sane, it may be healtier to use something like [pandoc-resume](https://github.com/mszep/pandoc_resume) (BUT it doesn't provide a serialized data source, it's markdown).
 
 ## References
 
