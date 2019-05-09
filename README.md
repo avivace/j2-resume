@@ -1,5 +1,7 @@
 # cv
 
+![Alt text](.meta/flow.svg)
+
 ### Requirements
 
 - a TeX distribution
