@@ -1,6 +1,7 @@
-import jinja2
 import os
+import sys
 import json
+import jinja2
 from jinja2 import Template
 
 latex_jinja_env = jinja2.Environment(
@@ -10,7 +11,7 @@ latex_jinja_env = jinja2.Environment(
 	variable_end_string = '}',
 	comment_start_string = '\#{',
 	comment_end_string = '}',
-	line_statement_prefix = 'J%%',
+	line_statement_prefix = 'j%%',
 	line_comment_prefix = '%#',
 	trim_blocks = True,
 	autoescape = False,
@@ -20,7 +21,11 @@ latex_jinja_env = jinja2.Environment(
 template = latex_jinja_env.get_template('cv.tex')
 
 with open('data.json', 'r') as file:
-	data = json.loads(file.read())
+	try:
+		data = json.loads(file.read())
+	except ValueError:
+		sys.exit("Not a valid JSON")
 
 with open('cv_render.tex', 'w') as file:
 	file.write(template.render(data=data))
+	print("Tex successfully compiled")

@@ -6,6 +6,54 @@
 	"website": "https://avivace.com",
 	"github": "https://github.com/avivace",
 	"email": "avivace4@gmail.com",
+	"education": [{
+		"title": "Master of Science",
+		"period": "2018 -- 2020 (\\textit{expected})",
+		"field":"Computer Science",
+		"school":"Università degli studi di Milano Bicocca",
+		"subtitle": "Grade average: 29.7/30 (\\~{}GPA 4.0). Taken subjecs:",
+		"thesis": "",
+		"subjects": [
+			{
+			"name":"Data Technology and Machine Learning",
+			"ects": 12
+			},
+			{
+			"name":"Digital Systems",
+			"ects": 6
+			},
+			{
+			"name":"Software Quality",
+			"ects": 6
+			},
+			{
+			"name":"Software Process",
+			"ects": 6
+			},
+			{
+			"name":"Methods for numerical analysis",
+			"ects": 6
+			}
+		]
+	},{
+		"title": "Bachelor's Degree",
+		"field": "Computer Science",
+		"school":"Università degli studi di Milano Bicocca",
+		"period": "2014-2017",
+		"subtitle": "Notable subjects I've taken: Distributed Systems, Calculus 1, Calculus 2 and Linear Algebra, Computational Biology.",
+		"thesis": "\\href{https://github.com/avivace/dna-recombination/raw/master/thesis/thesis.pdf}{Thesis}: Integer Linear Programming approaches for the DNA recombination problem."
+
+	},{
+		"school": "ITCG Achille Mapelli, Monza",
+		"period": "2010 -- 2014",
+		"title": "Science High School Diploma",
+		"field": "Liceo Scientifico Tecnologico"
+	},{
+		"school":"University of Cambridge ESOL Examinations",
+		"title":"FCE",
+		"period":"2013",
+		"field":"First Certificate in English"
+	}],
 	"work": [
 		{
 			"position": "Technical Coach, Teacher",
@@ -61,5 +109,7 @@
 			"field": "Entertainment",
 			"description": "Facebook campaigns, graphics and assets, designed a renewed website for the business."
 		}
+	],
+	"project": [
 	]
 }
