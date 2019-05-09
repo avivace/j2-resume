@@ -1,4 +1,6 @@
-# ![j2-resume](.meta/name.svg)
+<h1>
+<img src="meta/name.svg" alt="j2-resume" width="400">
+</h1>
 
 ![Architecture](.meta/flow.svg)
 
