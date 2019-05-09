@@ -2,7 +2,9 @@
 <img src=".meta/name.svg" alt="j2-resume" width="250">
 </h1>
 
-> ## An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
+> #### An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different templates, styles and formats without having to mantain them all.
+
+<br>
 
 ![Architecture](.meta/flow.svg)
 
@@ -45,7 +47,7 @@ TODO
 
 ## Related projects
 
-If you wish to remain sane, it may be healtier to use something like [pandoc-resume](https://github.com/mszep/pandoc_resume) (BUT it doesn't provide a serialized data source, it's markdown).
+If you wish to remain sane, something like [pandoc-resume](https://github.com/mszep/pandoc_resume) could fit your use-case with less effort (BUT it doesn't provide a serialized data source, it's markdown).
 
 ## References
 
