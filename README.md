@@ -1,6 +1,4 @@
-<h1>
-<img src=".meta/name.svg" alt="j2-resume" width="200">
-</h1>
+# J2-rèsumè
 
 > An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different localisations, templates, styles and formats without having to mantain them all.
 
