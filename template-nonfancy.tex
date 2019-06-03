@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{hyperref,xcolor}
+\definecolor{darkred}{HTML}{b71c1c}
+\definecolor{darkgray}{HTML}{191919}
+
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be black
+  urlcolor=darkred,
+}
+
+\pagenumbering{arabic}
+\pagestyle{plain}
+
+%\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\newsectionwidth{0pt} % Stops section indenting
+\renewcommand\familydefault{\sfdefault}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+
+\Large{\jv{data.name}}
+
+
+ % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+\address{ 
+\href{\jv{data.website}}{\jv{data.website[8:]}}\\ 
+\href{\jv{data.github}}{\jv{data.github[8:]}}\\
+\jv{data.email}\\ 
+} % Your address 2
+
+\address{
+\jv{data.address} \\
+\jv{data.age} years old\\
+\jv{data.phone}
+}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{\centerline{OBJECTIVE}}
+
+%\vspace{8pt} % Gap between title and text
+
+%A position in Personnel Administration utilizing skills in recruiting, training and compensation.\\ 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{8pt}
+{\Large \section{\centerline{EDUCATION}}}
+
+\vspace{10pt} % Gap between title and text
+
+\jb{ for edu in data.education }
+{\sl \jv{edu.school}} \hfill \jv{edu.period} \\ 
+\textbf{ \jv{edu.title}}, \jv{edu.field} \\
+\jv{edu.subtitle} 
+\jb{ if edu.thesis} \\ 
+\jv{edu.thesis}
+\jb{ endif }
+
+\jb{ if edu.subjects }
+\begin{itemize}
+\jb{ for subj in edu.subjects}
+\item \jv{subj.name}. \jv{subj.ects} etcs.
+\jb{ endfor }
+\end{itemize}
+\jb{ endif }
+\jb{ endfor }
+
+
+%----------------------------------------------------------------------------------------
+ 
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+{\Large \section{\centerline{PROFESSIONAL EXPERIENCE}}}
+
+\vspace{10pt} % Gap between title and text
+
+\jb{ for experience in data.work }
+
+
+{\sl \jv{experience.place} } \hfill \jv{experience.period}\\
+\textbf{ \jv{experience.position} } \hfill \jv{experience.field}\vspace{4pt} \\
+\textcolor{darkgray}{
+\jv{experience.description}
+}
+
+\jb{ endfor }
+
+
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+{\Large \section{\centerline{PROJECTS}}}
+\vspace{10pt}
+
+I've worked in a number of side projects in which I implemented full stack applications using a lot of different programming languages, frameworks and different technologies, everytime looking for another challenge. I worked alone, in a team, and lead open source projects raised or wanted by the community.
+
+The complete list is available on my \href{https://github.com/avivace}{GitHub page}.
+
+\textbf{ \href{https://github.com/avivace/fuse}{fuse}} \hfill 
+Vue.js, Flask, Boostrap \\
+Restful, reactive and responsive file upload web service (similar to "We-Transfer") built ground up with Vue.js, Axios, Bootstrap-Vue, Webpack. Backend is in Flask and SQLite3.
+
+\textbf{ \href{https://play.google.com/store/apps/details?id=avivace.daily_programmer}{dailyProgrammer} } \hfill 
+Javascript, Android \\
+An app for coders, developers or studends: daily coding challenges for learning, refreshing or just for fun.
+20K total downloads and 7K weekly users on Android Devices and more on the \href{https://dp.avivace.com/}{web version}.
+Reddit JSON API, MaterializeCSS, responsive design, web wrapper (with a javascript interface to use native functionalities) as Android app.
+
+\textbf{ \href{https://gbhh.avivace.com}{Homebrew Hub}} \hfill 
+Node.js, Bootstrap \\ 
+A showcase/archive of homebrews, patches, hackroms for old consoles. Provides community submission, tagging and rating features.\
+Basically a CMS built ground up using Node.js, Express and Passport for the backend. Implemented my own authentication strategy, email verification system. Bootstrap 4 for the frontend. MongoDB and Mongoose ORM for the database.
+
+\textbf{ \href{https://github.com/avivace/rssnotifier}{RSS Notifier}} \hfill 
+Node.js \\ 
+Telegram bot for powerful RSS reading. Provides notification on queries-matching elements and supports multiple users.\ Built on Node.js, database is SQLite3.
+
+\textbf{ \href{https://github.com/avivace/radiogit}{RadioGit}} \hfill 
+Node.js, Python \\ 
+Telegram bot to broadcast GitHub repository events and activities to private and group chats. Supports user and group preferences.\
+Built on Python with SQLite3 as database, the webhook listener is in Node.js.
+
+\textbf{ \href{https://github.com/avivace/ardumonitor}{Ardumonitor}} \hfill 
+Processing, JS \\ 
+Real time monitoring of a remote Linux machine with Arduino and a LCD display.
+
+\section{{\centerline{HOBBIES}}}
+\vspace{6pt}
+Old school hardware/software, photography, typography and electronics. 
+
+\vspace*{\fill}
+
+{\footnotesize Monza, February 2019.\\
+An always updated version of this document is available at \href{https://avivace.com/cv.pdf}{avivace.com/cv.pdf}}
+
+\end{resume} 
+\end{document}
