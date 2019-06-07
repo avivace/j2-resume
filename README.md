@@ -8,8 +8,10 @@
 
 ## Goals
 
-- Have an agnostic data source (JSON) and edit ONLY that when updating the informations (API access to a remote endpoint exposing a compliant JSON is trivially implementable, too).
-- Have data source compliant and validated against a formal specification or schema (use JSON schema and possibly the JSON-Resume specification?). Templates must respect this schema too.
+- Logically and practically separate templates/tools and data source;
+- Have an agnostic data source (JSON) and edit ONLY that when updating the informations (API access to a remote endpoint exposing a compliant JSON is trivially implementable, too);
+- Have data source compliant and validated against a formal specification or schema (use JSON schema and possibly the JSON-Resume specification?). Templates must respect this schema too;
+- Allow a sane versioning of both the data source and templates, separately;
 - Easily update and version the data source using a text editor or a (visual) JSON editor;
 - Keep the hybrid Jinja2 templates clean and similar to their plain format versions (that's why a LuaLaTeX solution was scraped).
 
@@ -127,6 +129,7 @@ Email: {{ email }}
 
 - a TeX distribution
 - XeLaTeX
+- Python3
 
 On Debian:
 
