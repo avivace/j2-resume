@@ -1,6 +1,6 @@
-# J2-rèsumè
+# J2-résumé
 
-> An opinionated workflow to produce different versions of a Curriculum Vitae (rèsumè) document using different localisations, templates, styles and formats without having to mantain them all.
+> An opinionated workflow to produce different versions of a Curriculum Vitae (résumé) document using different localisations, templates, styles and formats without having to mantain them all.
 
 <br>
 
@@ -104,7 +104,7 @@ Recent tools have native support for plugging JSON data.
 E.g. on a Vue component:
 
 ```
-<title>{{ name }} rèsumè</title>
+<title>{{ name }} résumé</title>
 Name: {{ name }}
 Address: {{ address }}
 Age: {{ age }}
@@ -143,7 +143,7 @@ xelatex resume.tex
 
 ## TODO
 
-- [ ] Rèsumè JSON schema
+- [ ] Résumé JSON schema
 - [ ] Example Vue template for the web workflow
 - [ ] Example MD/HTML5 template for the pandoc workflow
 - [ ] pandoc preprocessor to allow Markdown in the field of the json, then preprocess to the target language in each workflow.
