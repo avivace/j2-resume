@@ -2,8 +2,6 @@
 
 > An opinionated workflow to produce different versions of a Curriculum Vitae (résumé) document allowing different localisations, templates, styles and formats without having to mantain them all.
 
-<br>
-
 ### Example
 
 If you want to take a look at a potential final result, [my CV](http://avivace.com/cv.pdf) is built using this tool.
