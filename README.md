@@ -1,10 +1,17 @@
 # J2-résumé
 
-> An opinionated workflow to produce different versions of a Curriculum Vitae (résumé) document using different localisations, templates, styles and formats without having to mantain them all.
+> An opinionated workflow to produce different versions of a Curriculum Vitae (résumé) document allowing different localisations, templates, styles and formats without having to mantain them all.
 
 <br>
 
+### Example
+
+If you want to take a look at a potential final result, [my CV](http://avivace.com/cv.pdf) is built using this tool.
+
+## Architecture
+
 ![Architecture](.meta/flow.svg)
+
 
 ## Goals
 
@@ -15,7 +22,7 @@
 - Easily update and version the data source using a text editor or a (visual) JSON editor;
 - Keep the hybrid Jinja2 templates clean and similar to their plain format versions (that's why a LuaLaTeX solution was scraped).
 
-## How it looks like
+## How the code looks like
 
 This is your *JSON data source*:
 
