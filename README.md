@@ -142,6 +142,13 @@ On Debian:
 sudo apt install texlive-base pandoc python3
 ```
 
+On Fedora:
+
+```bash
+sudo dnf install texlive-collection-fontsrecommended texlive-xetex texlive-latex texlive-collection-latexextra texlive-titlesec 'tex(datetime.sty)' 'tex(eu1enc.def)' 'tex(polyglossia.sty)'
+sudo dnf install google-roboto-fonts.noarch
+```
+
 ### LaTeX workflow
 
 ```bash
