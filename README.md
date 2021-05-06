@@ -139,7 +139,7 @@ Email: {{ email }}
 On Debian:
 
 ```bash
-sudo apt install texlive-base pandoc python3
+sudo apt install texlive-base pandoc python3 texlive-xetex fonts-roboto
 ```
 
 On Fedora:
