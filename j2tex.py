@@ -27,7 +27,7 @@ def main(argv):
         usage()
         sys.exit(2)
     if "-o" not in [x[0] for x in opts]:
-        print("-t <filename> is required")
+        print("-o <filename> is required")
         usage()
         sys.exit(2)
     for option, value in opts:
